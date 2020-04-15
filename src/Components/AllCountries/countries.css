@@ -1,0 +1,72 @@
+.Country {
+  box-shadow: 3px 3px 3px #cccccc;
+  padding: 10px 15px 10px 10px;
+  margin: 10px;
+  margin-bottom: 14px;
+  border-radius: 17px;
+  line-height: 118%;
+}
+
+.Countries {
+  height: 458px;
+  overflow: auto;
+  width: 450px;
+  padding: 0px 10px 10px 10px;
+  box-shadow: 0px 0px 20px #cccccc;
+  border-radius: 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.SearchBox {
+  width: 100%;
+  margin: 15px auto 15px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 17px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  outline: none;
+  border: 1px solid #2c3335;
+  background: #555;
+  color: white;
+  text-indent: 20px;
+}
+
+.SearchBox.middle:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
